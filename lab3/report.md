@@ -44,3 +44,26 @@
 
 <img width="905" height="759" alt="5_file_0_result" src="https://github.com/user-attachments/assets/bdec8694-5d14-483a-9a36-19a3198ba047" />
 
+## **Часть 2. Установка Caddy**
+
+### 1. Инициализация структуры роли для развертывания Caddy
+
+<img width="735" height="29" alt="1_1" src="https://github.com/user-attachments/assets/405381b9-50b5-451e-aec1-e0bfcc703dcd" />
+<img width="864" height="43" alt="1_2" src="https://github.com/user-attachments/assets/a06b2e5e-ad8f-4e45-aa6b-6cd178250228" />
+<img width="722" height="293" alt="1_3" src="https://github.com/user-attachments/assets/36709a60-e79e-4ae7-954f-ccf4a8f41aa2" />
+
+### 2. Наполнение файла с задачами для установки Caddy
+
+<img width="866" height="523" alt="2" src="https://github.com/user-attachments/assets/f2e407c9-9ade-4f7c-958f-9db9e143db65" />
+
+### 3. Создание основного плейбука для развертывания Caddy
+
+<img width="799" height="109" alt="3" src="https://github.com/user-attachments/assets/7eb56d74-7566-4f96-917c-748c03acfc64" />
+
+### 4. Запуск плейбука установки и проверка выполнения всех шагов
+
+<img width="867" height="404" alt="4_1" src="https://github.com/user-attachments/assets/85a89ff1-26ca-4fba-bae9-6f179c88cce0" />
+<img width="866" height="304" alt="4_2" src="https://github.com/user-attachments/assets/db18fcf8-c6f2-404d-a328-46f555207636" />
+
+
+
