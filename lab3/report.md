@@ -65,5 +65,45 @@
 <img width="867" height="404" alt="4_1" src="https://github.com/user-attachments/assets/85a89ff1-26ca-4fba-bae9-6f179c88cce0" />
 <img width="866" height="304" alt="4_2" src="https://github.com/user-attachments/assets/db18fcf8-c6f2-404d-a328-46f555207636" />
 
+## Часть 3. Настройка домена и конфигурации Caddy
+
+### 1. Регистрация бесплатного доменного имени для веб-сервера
+
+<img width="1250" height="381" alt="1_1" src="https://github.com/user-attachments/assets/c7791c6c-6deb-459b-95d8-d58a66070215" />
+
+### 2. Создание шаблонов конфигурации и переменных для динамической настройки
+
+`roles/caddy_deploy/templates/Caddyfile.j2`
+
+<img width="905" height="149" alt="2_1" src="https://github.com/user-attachments/assets/2d194f3a-325f-4478-80d4-bf90d208fd5d" />
+
+`roles/caddy_deploy/vars/main.yml`
+
+<img width="515" height="116" alt="2_2" src="https://github.com/user-attachments/assets/ddd7f668-507e-4955-83cf-8a948652ca70" />
+
+### 3. Добавление задач в плейбук для применения конфигурации и перезапуска сервиса
+
+<img width="638" height="465" alt="3_1" src="https://github.com/user-attachments/assets/25e5f5f8-a8ae-4b81-ae25-a36fb14edd0a" />
+
+### 4. Проверка работоспособности веб-сервера по доменному имени
+
+<img width="906" height="356" alt="4_1" src="https://github.com/user-attachments/assets/17397fdc-c979-4667-81fa-ef3be8b8813d" />
+<img width="1159" height="942" alt="1_2" src="https://github.com/user-attachments/assets/9ac0c77d-97ad-4728-b5e9-b71f322538c2" />
+
+### 5. Задание 2. a):
+#### 1. Усовершенствование шаблона конфигурации Caddy
+Модифицируем шаблон Caddyfile.j2, добавляя кастомные HTTP-заголовки безопасности и изменяя корневую директорию для веб-контента.
+
+<img width="536" height="222" alt="5_1" src="https://github.com/user-attachments/assets/484fd9ae-5ee1-4ea2-9857-3d790f5d485d" />
+
+#### 2. Добавление задач для развертывания кастомного веб-контента
+`tasks/main.yml`
+
+<img width="715" height="450" alt="5_2" src="https://github.com/user-attachments/assets/530fa4e1-889d-48b8-ba24-93a385e175f8" />
+
+#### 3. Проверка расширенной функциональности веб-сервера
+Видно что слушаются 80 и 443 порты
+
+<img width="899" height="63" alt="5_3_1" src="https://github.com/user-attachments/assets/06aed66d-dccc-4ae8-8dfb-d9ec36f9a61b" />
 
 
